@@ -1,2 +1,2 @@
-# VHCC.github.io
-MyGitHubPages
+# Resume
+please visit [CV](https://vhcc.github.io/)

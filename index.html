@@ -12,6 +12,7 @@
 
         gtag('js', new Date());
         gtag('config', 'UA-150100097-1');
+
     </script>
     <meta charset="UTF-8">
     <title>IChen Chu (朱翌成)</title>
@@ -32,6 +33,7 @@
           integrity="sha384XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
 
     <link rel="stylesheet" href="styles.css">
+
 
 </head>
 
@@ -97,10 +99,22 @@
 
 
 <body>
+
+<script src="https://unpkg.com/i18next/i18next.js"></script>
+<script src="https://unpkg.com/i18next-xhr-backend/i18nextXHRBackend.js"></script>
+<script src="https://unpkg.com/i18next-browser-languagedetector/i18nextBrowserLanguageDetector.js"></script>
+
 <div class="container">
     <div class="main">
         <article>
+
             <div class="article-inner" style="width:95%">
+                <button onclick="i18next.changeLanguage('en')">
+                    English
+                </button>
+                <button onclick="i18next.changeLanguage('zh_TW')">
+                    中文（繁體）
+                </button>
                 <div class="article-entry" itemprop="articleBody" itemprop="blogPost">
                     <table width="600">
                         <tbody>
@@ -108,13 +122,13 @@
                             <td align="center" width="250"><img src="./img/avator.png" height="250" alt="ichenchu"/>
                             <td align="left" style="padding-left:50px;" nowrap="">
                                 <dl>
-                                    <dd>
-                                        <h2>IChen Chu (朱翌成)</h2><br>
+                                    <dd >
+                                        <h2 id="dd1">IChen Chu (朱翌成)</h2><br>
                                     </dd>
-                                    <dd>
+                                    <dd id="dd2">
                                         Senior Android Developer, Advantech (Linkou, New Taipei City) <br>
                                     </dd>
-                                    <dd>
+                                    <dd id="dd3">
                                         Graduate from The Hydraulic Engineering Division from Civil Engineering, NTU <br><br>
                                     </dd>
                                     <dd>
@@ -137,17 +151,17 @@
                     <hr>
 
                     <!-- summary -->
-                    <p style="text-align:left"><strong><font size="4px">About</font></strong></p>
+                    <p style="text-align:left"><strong><font size="4px" id="ss1">About</font></strong></p>
                     <ul>
-                        <li>
+                        <li id="ss2">
                             From Sep. 2006 to Jun. 2010, I got my B.S. Degree from the Department of
                             Water and Soil Conservation, National Chung Hsing University (NCHU).
                         </li>
-                        <li>
+                        <li id="ss3">
                             From Sep. 2010 to Jun. 2012, I got my M.S. Degree from the Division of Hydraulic Engineering in Civil Engineering, National Taiwan University (NTU)
                             , and my advisor is Prof. Tsay T.K..
                         </li>
-                        <li>
+                        <li id="ss4">
                             Currently, I am a Senior Android Developer at <a href="https://www.advantech.tw/" target="_blank" rel="external"> Advantech Corp.</a>
 
                         </li>
@@ -394,4 +408,50 @@
     </div>
 </div>
 </body>
+<script src="i18n.js"></script>
+<script>
+    window.onload=function(){
+
+// import i18next from 'i18next';
+
+        i18next
+            .use(i18nextXHRBackend)
+            .use(i18nextBrowserLanguageDetector)
+            .init({
+                fallbackLng: 'en',
+                debug: true,
+                // ns: ['special', 'common'],
+                // defaultNS: 'special',
+                backend: {
+                    // load from i18next-gitbook repo
+                    loadPath: 'i18n/{{lng}}.json',
+                    crossDomain: true
+                }
+            }, function(err, t) {
+                updateContent_test(document);
+                // init set content
+                // updateContent();
+            });
+
+
+// just set some content and react to language changes
+// could be optimized using vue-i18next, jquery-i18next, react-i18next, ...
+        function updateContent() {
+            document.getElementById('title').innerHTML = i18next.t('title', { what: 'i18next' });
+            document.getElementById('saveBtn').innerHTML = i18next.t('common:button.save', { count: Math.floor(Math.random()*2+1)  });
+
+            document.getElementById('info').innerHTML = `detected user language: "${i18next.language}"  --> loaded languages: "${i18next.languages.join(', ')}"`;
+        }
+
+        function changeLng(lng) {
+            i18next.changeLanguage(lng);
+        }
+
+        i18next.on('languageChanged', () => {
+            // updateContent();
+            updateContent_test(document);
+        });
+
+    }
+</script>
 </html>

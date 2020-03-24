@@ -9,7 +9,37 @@
     "ss3": "From Sep. 2010 to Jun. 2012, I got my M.S. Degree from the Division of Hydraulic Engineering in Civil Engineering, National Taiwan University (NTU) and my advisor is Prof. Tsay T.K..",
     "ss4": "Currently, I am a Senior Android Developer at <a href='https://www.advantech.tw/' target='_blank' rel='external'> Advantech Corp.</a>",
 
-    "rn1": "",
+    "rn1": "Recent news",
+    "rn2": "10/2013 – Be a <b>Civil Engineer</b> in 京扬工程科技股份有限公司",
+    "rn3": "04/2015 – Be a <b>Java Developer</b> in <a href='https://www.flowring.com/tw/' target='_blank'' rel='external'>Flowring</a> ",
+    "rn4": "09/2016 – Be an <b>Android Developer</b> in <a href='http://www.secufirst.com.tw/' target='_blank' rel='external'>Jsw Corp.</a> ",
+    "rn5": "04/2017 – Participate in <a href='https://2017.spaceappschallenge.org/locations/taipei/' target='_blank' rel='external'> NASA Hackathon'17</a>",
+    "rn6": "10/2017 – 1st App, Android Game <b>2048</b> published on Google Play Store",
+    "rn7": "04/2018 – In charge for Chp 17, 18 in online workshop about <a href='https://www.books.com.tw/products/0010754327' target='_blank' rel='external'>TensorFlow&Keras</a>",
+    "rn8": "08/2018 – Be a <b>Senior Android Developer</b> in <a href='https://www.advantech.tw/ target='_blank' rel='external'> Advantech Corp.</a>",
+    "rn9": "11/2019 – 2nd App, Android Game <b>DrawNSend</b> published on Google Play Store",
+
+    "pp1": "Publications",
+    "pp2": "Thesis",
+    "pp3": "Numerical Simulation of 2D Free-surface Potential Flows Using Modified Finite Point Method",
+    "pp4": "I-Chen Tsu",
+    "pp5": "Ting-Kuei Tsay.",
+    "pp6": "Journals",
+    "pp7": "Websites",
+    "pp8": "1F., No.23-3, Ln. 51, Sec. 1, Da’an Rd., Da’an Dist., Taipei 106",
+    "pp9": "Open Source",
+    "pp10": "(using Line scan the qrcode, then make dialogue with it~)",
+    "pp11": "Face Detection",
+    "pp12": "Age-Estimation",
+
+    "pj1": "Projects",
+    "pj2": "MEAN (MongoDB, Express, AngularJS, NodeJS) Website",
+    "pj3": "Cold Chain Management for Retail",
+    "pj4": "Rainfall prediction",
+    "pj5": "Business Process Management",
+    "pj6": "Enterprise Resource Management",
+    "pj7": "Geographic to learn japanese",
+
 
     "end": "end"
 }

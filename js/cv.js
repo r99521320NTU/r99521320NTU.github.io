@@ -35,4 +35,6 @@
         console.log("L2")
     });
 
+    console.log("cv.js Loaded completely.")
+
 })();

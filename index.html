@@ -101,6 +101,16 @@
 <script src="https://unpkg.com/i18next/i18next.js"></script>
 <script src="https://unpkg.com/i18next-xhr-backend/i18nextXHRBackend.js"></script>
 <script src="https://unpkg.com/i18next-browser-languagedetector/i18nextBrowserLanguageDetector.js"></script>
+<script>
+    function gtagEvent(event, action, category, label, value) {
+        gtag(event,
+            action, {
+            'event_category': category,
+            'event_label': label,
+            'value': value
+        });
+    }
+</script>
 
 <div class="container">
     <div class="main">
@@ -108,10 +118,10 @@
 
             <div class="article-inner" style="width:95%">
                 <div style="float: right">
-                    <button onclick="i18next.changeLanguage('en')">
+                    <button onclick="i18next.changeLanguage('en'); gtagEvent('event', 'Languages Change', 'Click', 'to en', 10)">
                         English
                     </button>
-                    <button onclick="i18next.changeLanguage('zh_TW')">
+                    <button onclick="i18next.changeLanguage('zh_TW'); gtagEvent('event', 'Languages Change', 'Click', 'to zh_tw', 10)">
                         中文（繁體）
                     </button>
                 </div>

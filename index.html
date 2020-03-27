@@ -118,10 +118,10 @@
 
             <div class="article-inner" style="width:95%">
                 <div style="float: right">
-                    <button onclick="i18next.changeLanguage('en'); gtagEvent('event', 'Languages Change', 'Click', 'to en', 10)">
+                    <button onclick="i18next.changeLanguage('en'); gtagEvent('event', 'Languages Change', 'Click', 'to en', 5)">
                         English
                     </button>
-                    <button onclick="i18next.changeLanguage('zh_TW'); gtagEvent('event', 'Languages Change', 'Click', 'to zh_tw', 10)">
+                    <button onclick="i18next.changeLanguage('zh_TW'); gtagEvent('event', 'Languages Change', 'Click', 'to zh_tw', 5)">
                         中文（繁體）
                     </button>
                 </div>
@@ -150,8 +150,8 @@
                                     </dd>
                                     <dd>
                                         <!--<a href="https://scholar.google.com/citations?user=ACb5C40AAAAJ&hl=en" target="_blank" rel="external">[Google Scholar]</a>-->
-                                        <a href="https://github.com/VHCC" target="_blank" rel="external">[Github]</a>
-                                        <a href="./img/line_qr.png" target="_blank" rel="external">[Line]</a>
+                                        <a href="https://github.com/VHCC" target="_blank" rel="external" onclick="gtagEvent('event', 'my git link Click', 'Click', 'My Git Hub', 10)">[Github]</a>
+                                        <a href="./img/line_qr.png" target="_blank" rel="external" onclick="gtagEvent('event', 'External Link Click', 'Click', 'to Line', 2)">[Line]</a>
                                         <br><br>
                                     </dd>
                                 </dl>
@@ -173,7 +173,7 @@
                             in Civil Engineering, National Taiwan University (NTU)
                             , and my advisor is Prof. Tsay T.K..
                         </li>
-                        <li class="ss4">
+                        <li class="ss4" onclick="gtagEvent('event', 'External Link Click', 'Click', 'to advantech', 2)">
                             Currently, I am a Senior Android Developer at <a href="https://www.advantech.tw/"
                                                                              target="_blank" rel="external"> Advantech
                             Corp.</a>
@@ -187,36 +187,36 @@
                     <p style="text-align:left"><strong><font size="4px" class="rn1">Recent news</font></strong></p>
                     <ul>
 
-                        <li id="time9"><p style="text-align:left" class="rn10">03/2020 – Web App, <a
+                        <li id="time9"><p style="text-align:left" class="rn10" onclick="gtagEvent('event', 'my app link Click', 'Click', 'jp web app', 10)">03/2020 – Web App, <a
                                 href="https://jp.ichenprocin.dsmynas.com" target="_blank" rel="external"><b>Japan
                             geographic map</b></a></p></li>
-                        <li id="time8"><p style="text-align:left" class="rn9">11/2019 – 2nd App, Android Game <b><a
+                        <li id="time8"><p style="text-align:left" class="rn9" onclick="gtagEvent('event', 'my app link Click', 'Click', 'DrawNSend', 10)">11/2019 – 2nd App, Android Game <b><a
                                 href="https://play.google.com/store/apps/details?id=com.vhcc.drawnsend"
                                 target="_blank" rel="external">DrawNSend</a></b>
                             published on Google Play Store</p></li>
-                        <li id="time7"><p style="text-align:left" class="rn8">08/2018 – Be a <b>Senior Android
+                        <li id="time7" onclick="gtagEvent('event', 'External Link Click', 'Click', 'to advantech', 2)"><p style="text-align:left" class="rn8">08/2018 – Be a <b>Senior Android
                             Developer</b> in <a
                                 href="https://www.advantech.tw/" target="_blank" rel="external"> Advantech Corp.</a></p>
                         </li>
-                        <li id="time6"><p style="text-align:left" class="rn7">04/2018 – In charge for Chp 17, 18 in
+                        <li id="time6" onclick="gtagEvent('event', 'External Link Click', 'Click', 'to Tenserflow', 2)"><p style="text-align:left" class="rn7">04/2018 – In charge for Chp 17, 18 in
                             online workshop
                             about <a href="https://www.books.com.tw/products/0010754327" target="_blank" rel="external">TensorFlow&Keras</a>
                         </p></li>
-                        <li id="time5"><p style="text-align:left" class="rn6">10/2017 – 1st App, Android Game <b><a
+                        <li id="time5" onclick="gtagEvent('event', 'my app link Click', 'Click', '2048', 10)"><p style="text-align:left" class="rn6">10/2017 – 1st App, Android Game <b><a
                                 href="https://play.google.com/store/apps/details?id=com.ichen.game" target="_blank"
                                 rel="external">2048</a></b>
                             published
                             on Google Play Store</p></li>
-                        <li id="time4"><p style="text-align:left" class="rn5">04/2017 – Participate in <a
+                        <li id="time4" onclick="gtagEvent('event', 'External Link Click', 'Click', 'to NASA', 2)"><p style="text-align:left" class="rn5">04/2017 – Participate in <a
                                 href="https://2017.spaceappschallenge.org/locations/taipei/" target="_blank"
                                 rel="external"> NASA Hackathon'17</a></p></li>
-                        <li id="time3"><p style="text-align:left" class="rn4">09/2016 – Be an <b>Android Developer</b>
+                        <li id="time3" onclick="gtagEvent('event', 'External Link Click', 'Click', 'to JSW', 2)"><p style="text-align:left" class="rn4">09/2016 – Be an <b>Android Developer</b>
                             in <a
                                     href="http://www.secufirst.com.tw/" target="_blank" rel="external">Jsw Corp.</a></p>
                         </li>
-                        <li id="time2"><p style="text-align:left" class="rn3">04/2015 – Be a <b>Java Developer</b> in <a
+                        <li id="time2" onclick="gtagEvent('event', 'External Link Click', 'Click', 'to Flowring', 2)"><p style="text-align:left" class="rn3">04/2015 – Be a <b>Java Developer</b> in <a
                                 href="https://www.flowring.com/tw/" target="_blank" rel="external">Flowring</a></p></li>
-                        <li id="time1"><p style="text-align:left" class="rn2">10/2013 – Be a <b>Civil Engineer</b> in
+                        <li id="time1" onclick="gtagEvent('event', 'External Link Click', 'Click', 'to KM', 2)"><p style="text-align:left" class="rn2">10/2013 – Be a <b>Civil Engineer</b> in
                             京扬工程科技股份有限公司
                         </p></li>
 
@@ -235,7 +235,7 @@
                             <!-- #1 -->
                             <tr style="border-width: 10px">
                                 <td style="border: 0px;">
-                    <p style="text-align:justify"><strong><font size="2px" class="pp2">Thesis</font></strong></p>
+                    <p style="text-align:justify"><strong><font size="2px" class="pp2" onclick="gtagEvent('event', 'my publication Click', 'Click', 'thesis', 5)">Thesis</font></strong></p>
                     <ul>
                         <li>
                             <p><b class="pp3">Numerical Simulation of 2D Free-surface Potential Flows Using Modified
@@ -259,7 +259,7 @@
                             <p style="text-align:justify"><strong><font size="2px" class="pp6">Journals</font></strong>
                             </p>
                             <ul>
-                                <li>
+                                <li onclick="gtagEvent('event', 'my publication Click', 'Click', 'journal', 5)">
                                     <p><b>Applicability of the Lagrangian Time Scheme to Water
                                         Wave Simulation</b><br>
                                         Nan-Jing Wu,
@@ -283,7 +283,7 @@
                         <td style="border: 0px;">
                             <p style="text-align:justify"><strong><font size="2px">Apps</font></strong></p>
                             <ul>
-                                <li>
+                                <li onclick="gtagEvent('event', 'my app link Click', 'Click', '2048', 10)">
                                     <p><b>2048</b><br>
                                         on Android
                                         <br>
@@ -293,7 +293,7 @@
                                            target="_blank" rel="external" ; style="color: #EE7F2D;">[Google Play]</a>
                                     </p>
                                 </li>
-                                <li>
+                                <li onclick="gtagEvent('event', 'my app link Click', 'Click', 'DrawNSend', 10)">
                                     <p><b>DrawNSend</b><br>
                                         on Android
                                         <br>
@@ -303,7 +303,7 @@
                                            target="_blank" rel="external" ; style="color: #EE7F2D;">[Google Play]</a>
                                     </p>
                                 </li>
-                                <li>
+                                <li onclick="gtagEvent('event', 'my app link Click', 'Click', 'jp web app', 10)">
                                     <p><b>Japan geographic map</b><br>
                                         on Web App
                                         <br>
@@ -323,7 +323,7 @@
                             <p style="text-align:justify"><strong><font size="2px" class="pp7">Websites</font></strong>
                             </p>
                             <ul>
-                                <li>
+                                <li onclick="gtagEvent('event', 'my app link Click', 'Click', 'VHC Web', 10)">
                                     <p><b>保健室眼鏡</b>
                                         <br>
                                         <w class="pp8">1F., No.23-3, Ln. 51, Sec. 1, Da’an Rd., Da’an Dist., Taipei
@@ -336,7 +336,7 @@
                                            target="_blank" rel="external" ; style="color: #EE7F2D;">[Link]</a>
                                     </p>
                                 </li>
-                                <li>
+                                <li onclick="gtagEvent('event', 'my app link Click', 'Click', 'node demo', 10)">
                                     <p><b>崇峻工程顧問有限公司 ERM</b>
                                         <br>
                                         2018
@@ -354,7 +354,7 @@
                             <p style="text-align:justify"><strong><font size="2px" class="pp9">Open
                                 Source</font></strong></p>
                             <ul>
-                                <li>
+                                <li onclick="gtagEvent('event', 'my git link Click', 'Click', 'DraggableCard', 8)">
                                     <p>
                                         <b>DraggableCard</b>
                                         <br>
@@ -364,7 +364,7 @@
                                            style="color: #EE7F2D;"> [Github]</a>
                                     </p>
                                 </li>
-                                <li>
+                                <li onclick="gtagEvent('event', 'my git link Click', 'Click', 'ChatBot', 8)">
                                     <p>
                                         <a href="./img/line-bot.png" target="_blank" rel="external">ChatBot </a>
                                         <br>
@@ -376,7 +376,7 @@
                                            style="color: #EE7F2D;"> [Github]</a>
                                     </p>
                                 </li>
-                                <li>
+                                <li onclick="gtagEvent('event', 'my git link Click', 'Click', 'Face Detection', 8)">
                                     <p style="text-align:left">
                                         <w class="pp11">Face Detection</w>
                                         <br>
@@ -387,7 +387,7 @@
                                     </p>
 
                                 </li>
-                                <li>
+                                <li onclick="gtagEvent('event', 'my git link Click', 'Click', 'Age Estimation', 8)">
                                     <p style="text-align:left">
                                         <w class="pp12">Age-Estimation</w>
                                         <br>
@@ -458,7 +458,7 @@
                             <ul>
                                 <li><p>Docker</p></li>
                                 <li><p>Kubernetes</p></li>
-                                <li>
+                                <li onclick="gtagEvent('event', 'my app link Click', 'Click', 'Jenkins', 10)">
                                     <p>Jenkins
                                         <a
                                                 href="https://jenkins.ichenprocin.dsmynas.com/?auto_refresh=true"
@@ -501,7 +501,7 @@
                                         <li><p>flask</p></li>
                                     </ul>
                                 </li>
-                                <li>
+                                <li onclick="gtagEvent('event', 'my app link Click', 'Click', 'Go Api', 10)">
                                     <p style="text-align:left">GoLang
                                         <a href="https://rms.ichenprocin.dsmynas.com/doc/html/apidoc/"
                                            target="_blank"

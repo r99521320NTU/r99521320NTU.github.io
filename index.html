@@ -32,9 +32,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
           integrity="sha384XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="styles.css">
-
-
 </head>
 
 <style type="text/css">
@@ -179,32 +176,44 @@
                     <p style="text-align:left"><strong><font size="4px" class="rn1">Recent news</font></strong></p>
                     <ul>
 
-                        <li><p style="text-align:left" class="rn10">03/2020 – Web App, <a
+                        <li id="time9"><p style="text-align:left" class="rn10">03/2020 – Web App, <a
                                 href="https://jp.ichenprocin.dsmynas.com" target="_blank" rel="external"><b>Japan
                             geographic map</b></a></p></li>
-                        <li><p style="text-align:left" class="rn9">11/2019 – 2nd App, Android Game <b>DrawNSend</b>
+                        <li id="time8"><p style="text-align:left" class="rn9">11/2019 – 2nd App, Android Game <b><a
+                                href="https://play.google.com/store/apps/details?id=com.vhcc.drawnsend"
+                                target="_blank" rel="external">DrawNSend</a></b>
                             published on Google Play Store</p></li>
-                        <li><p style="text-align:left" class="rn8">08/2018 – Be a <b>Senior Android Developer</b> in <a
+                        <li id="time7"><p style="text-align:left" class="rn8">08/2018 – Be a <b>Senior Android
+                            Developer</b> in <a
                                 href="https://www.advantech.tw/" target="_blank" rel="external"> Advantech Corp.</a></p>
                         </li>
-                        <li><p style="text-align:left" class="rn7">04/2018 – In charge for Chp 17, 18 in online workshop
+                        <li id="time6"><p style="text-align:left" class="rn7">04/2018 – In charge for Chp 17, 18 in
+                            online workshop
                             about <a href="https://www.books.com.tw/products/0010754327" target="_blank" rel="external">TensorFlow&Keras</a>
                         </p></li>
-                        <li><p style="text-align:left" class="rn6">10/2017 – 1st App, Android Game <b>2048</b> published
+                        <li id="time5"><p style="text-align:left" class="rn6">10/2017 – 1st App, Android Game <b><a
+                                href="https://play.google.com/store/apps/details?id=com.ichen.game" target="_blank"
+                                rel="external">2048</a></b>
+                            published
                             on Google Play Store</p></li>
-                        <li><p style="text-align:left" class="rn5">04/2017 – Participate in <a
+                        <li id="time4"><p style="text-align:left" class="rn5">04/2017 – Participate in <a
                                 href="https://2017.spaceappschallenge.org/locations/taipei/" target="_blank"
                                 rel="external"> NASA Hackathon'17</a></p></li>
-                        <li><p style="text-align:left" class="rn4">09/2016 – Be an <b>Android Developer</b> in <a
-                                href="http://www.secufirst.com.tw/" target="_blank" rel="external">Jsw Corp.</a></p>
+                        <li id="time3"><p style="text-align:left" class="rn4">09/2016 – Be an <b>Android Developer</b>
+                            in <a
+                                    href="http://www.secufirst.com.tw/" target="_blank" rel="external">Jsw Corp.</a></p>
                         </li>
-                        <li><p style="text-align:left" class="rn3">04/2015 – Be a <b>Java Developer</b> in <a
+                        <li id="time2"><p style="text-align:left" class="rn3">04/2015 – Be a <b>Java Developer</b> in <a
                                 href="https://www.flowring.com/tw/" target="_blank" rel="external">Flowring</a></p></li>
-                        <li><p style="text-align:left" class="rn2">10/2013 – Be a <b>Civil Engineer</b> in 京扬工程科技股份有限公司
+                        <li id="time1"><p style="text-align:left" class="rn2">10/2013 – Be a <b>Civil Engineer</b> in
+                            京扬工程科技股份有限公司
                         </p></li>
 
                     </ul>
                     <br><br>
+
+                    <div id="timeline-embed"></div>
+                    <hr/>
 
                     <!-- Publications -->
                     <p style="text-align:justify"><strong><font size="4px" class="pp1">Publications</font></strong>
@@ -439,7 +448,7 @@
                                 <li><p>Docker</p></li>
                                 <li><p>Kubernetes</p></li>
                                 <li>
-                                    <p >Jenkins
+                                    <p>Jenkins
                                         <a
                                                 href="https://jenkins.ichenprocin.dsmynas.com/?auto_refresh=true"
                                                 target="_blank"
@@ -485,7 +494,8 @@
                                     <p style="text-align:left">GoLang
                                         <a href="https://rms.ichenprocin.dsmynas.com/doc/html/apidoc/"
                                            target="_blank"
-                                           rel="external" ; style="color: #EE7F2D;"> [ Go Restful Api Server, api-doc]</a>
+                                           rel="external" ; style="color: #EE7F2D;"> [ Go Restful Api Server,
+                                            api-doc]</a>
                                     </p>
                                 </li>
                                 <li><p style="text-align:left">Java</p>
@@ -578,8 +588,12 @@
                 </div>
             </div>
         </article>
+
     </div>
 </div>
+<!--<iframe src="pages/storyline.html"></iframe>-->
+
+
 </body>
 <script src="i18n.js"></script>
 <script>
@@ -627,4 +641,41 @@
 
     }
 </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.9.2/qs.min.js"
+        integrity="sha256-TDxXjkAUay70ae/QJBEpGKkpVslXaHHayklIVglFRT4=" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+<!-- timeline-->
+<!--<script type="text/javascript" src="https://cdn.knightlab.com/libs/timeline/latest/js/storyjs-embed.js"></script>-->
+<!-- always load the CSS -->
+<link rel="stylesheet" type="text/css" href="https://cdn.knightlab.com/libs/timeline/latest/css/timeline.css">
+<!-- and then one of either -->
+<script src="js/cv.js"></script>
+<!--<script type="text/javascript" src="https://cdn.knightlab.com/libs/timeline/latest/js/timeline.js"></script>-->
+<script type="text/javascript" src="js/timeline_2_36_0.js"></script>
+<!-- or -->
+<!--<script type="text/javascript" src="https://cdn.knightlab.com/libs/timeline/latest/js/timeline-min.js"></script>-->
+<!-- but no need for both -->
+<script type="text/javascript">
+    var timeline_config = {
+        width: '100%',
+        height: '800',
+        // source: 'https://docs.google.com/spreadsheet/pub?key=0Agl_Dv6iEbDadHdKcHlHcTB5bzhvbF9iTWwyMmJHdkE&amp;output=html',
+        source: 'https://docs.google.com/spreadsheet/pub?key=1WIZpt6upXzVJQY-wn2SA6ovHLh1jp_6OF1asGx5mGGA&amp;output=html',
+        // source: 'https://docs.google.com/spreadsheets/u/0/d/1WIZpt6upXzVJQY-wn2SA6ovHLh1jp_6OF1asGx5mGGA/pub?amp;output=html',
+        embed_id: 'timeline-embed',				//OPTIONAL USE A DIFFERENT DIV ID FOR EMBED
+        start_at_end: false,							//OPTIONAL START AT LATEST DATE
+        start_at_slide: '0',							//OPTIONAL START AT SPECIFIC SLIDE
+        start_zoom_adjust: '1',							//OPTIONAL TWEAK THE DEFAULT ZOOM LEVEL
+        hash_bookmark: true,							//OPTIONAL LOCATION BAR HASHES
+        font: 'Bevan-PotanoSans',				//OPTIONAL FONT
+        debug: false,							//OPTIONAL DEBUG TO CONSOLE
+        lang: 'zh-tw',							//OPTIONAL LANGUAGE
+        // maptype: 'watercolor',					//OPTIONAL MAP STYLE
+        maptype: 'toner',					//OPTIONAL MAP STYLE
+    }
+</script>
+<script type="text/javascript" src="https://cdn.knightlab.com/libs/timeline/latest/js/storyjs-embed.js"></script>
+
 </html>

@@ -4361,7 +4361,8 @@ if(typeof VMM != 'undefined' && typeof VMM.ExternalAPI == 'undefined') {
             create: function(m) {
                 trace("WEB THUMB CREATE");
 
-                var thumb_url	= "//api.pagepeeker.com/v2/thumbs.php?";
+                // const cors = '//cors-anywhere.herokuapp.com/';
+                var thumb_url	= "https://api.pagepeeker.com/v2/thumbs.php?";
                 url			= m.id.replace("http://", "");//.split("/")[0];
 
                 // Main Image

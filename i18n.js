@@ -18,6 +18,7 @@
      substituteI18(root.getElementsByClassName('rn7'), i18next.t('rn7'));
      substituteI18(root.getElementsByClassName('rn8'), i18next.t('rn8'));
      substituteI18(root.getElementsByClassName('rn9'), i18next.t('rn9'));
+     substituteI18(root.getElementsByClassName('rn11'), i18next.t('rn11'));
 
      substituteI18(root.getElementsByClassName('pp1'), i18next.t('pp1'));
      substituteI18(root.getElementsByClassName('pp2'), i18next.t('pp2'));

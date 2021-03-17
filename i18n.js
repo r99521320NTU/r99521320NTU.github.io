@@ -19,6 +19,7 @@
      substituteI18(root.getElementsByClassName('rn8'), i18next.t('rn8'));
      substituteI18(root.getElementsByClassName('rn9'), i18next.t('rn9'));
      substituteI18(root.getElementsByClassName('rn11'), i18next.t('rn11'));
+     substituteI18(root.getElementsByClassName('rn12'), i18next.t('rn12'));
 
      substituteI18(root.getElementsByClassName('pp1'), i18next.t('pp1'));
      substituteI18(root.getElementsByClassName('pp2'), i18next.t('pp2'));
@@ -40,6 +41,8 @@
      substituteI18(root.getElementsByClassName('pj5'), i18next.t('pj5'));
      substituteI18(root.getElementsByClassName('pj6'), i18next.t('pj6'));
      substituteI18(root.getElementsByClassName('pj7'), i18next.t('pj7'));
+
+     substituteI18(root.getElementsByClassName('exp1'), i18next.t('exp1'));
 
      // root.getElementById('title').innerHTML = i18next.t('title', { what: 'i18next' });
  }

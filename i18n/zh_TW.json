@@ -1,35 +1,36 @@
 {
 
   "dd1": "朱翌成 (IChen Chu)",
-  "dd2": "資深安卓工程師, Advantech (林口, 新北市)",
+  "dd2": "資深工程師, Advantech (林口, 新北市)",
   "dd3": "畢業於『台灣大學土木工程所 水利工程部』",
 
   "ss1": "About",
-  "ss2": "2006/09 ~ 2010/06, 取得 學士學位『水土保持學系，中興大學』",
-  "ss3": "2010/09 ~ 2012/06, 取得 碩士學位『土木工程所 水利工程部，台灣大學』，指導教授『蔡丁貴』",
-  "ss4": "目前擔任<a href='https://www.advantech.tw/' target='_blank' rel='external'> Advantech Corp.</a>資深安卓工程師",
+  "ss2": "<p>2006/09 ~ 2010/06, 取得 學士學位『水土保持學系，中興大學』</p>",
+  "ss3": "<p>2010/09 ~ 2012/06, 取得 碩士學位『土木工程所 水利工程部，台灣大學』，指導教授『蔡丁貴』</p>",
+  "ss4": "<p>目前擔任<a href='https://www.advantech.tw/' target='_blank' rel='external'> Advantech Corp.</a>資深工程師</p>",
 
   "rn1": "近況",
   "rn2": "10/2013 – 擔任<b>水利工程師</b> 於 京扬工程科技股份有限公司（台北市）",
   "rn3": "04/2015 – 擔任<b>Java工程師</b> 於 <a href='https://www.flowring.com/tw/' target='_blank'' rel='external'>華苓科技 （新竹）</a> ",
-  "rn4": "09/2016 – 擔任<b>安卓工程師</b> 於 <a href='http://www.secufirst.com.tw/' target='_blank' rel='external'>天鉞 （新北）</a> ",
+  "rn4": "09/2016 – 擔任<b>工程師</b> 於 <a href='http://www.secufirst.com.tw/' target='_blank' rel='external'>天鉞 （新北）</a> ",
   "rn5": "04/2017 – 參與<a href='https://2017.spaceappschallenge.org/locations/taipei/' target='_blank' rel='external'> NASA Hackathon'17</a>",
   "rn6": "10/2017 – Google Store 上架 1st 個人 App, Android Game <b><a href='https://play.google.com/store/apps/details?id=com.ichen.game' target='_blank' rel='external'>2048</a></b>",
   "rn7": "04/2018 – 負責線上讀書會 第 17, 18章節, 書籍 <a href='https://www.books.com.tw/products/0010754327' target='_blank' rel='external'>TensorFlow&Keras</a>",
-  "rn8": "08/2018 – 擔任<b>資深安卓工程師</b> 於 <a href='https://www.advantech.tw/' target='_blank' rel='external'> Advantech Corp.</a>",
+  "rn8": "08/2018 – 擔任<b>資深工程師</b> 於 <a href='https://www.advantech.tw/' target='_blank' rel='external'> Advantech Corp.</a>",
   "rn9": "11/2019 – Google Store 上架 2nd 個人 App, Android Game <b><a href='https://play.google.com/store/apps/details?id=com.vhcc.drawnsend target='_blank' rel='external'>DrawNSend</a></b>",
   "rn11": "03/2018 – 企業資源管理系統 全端開發 <a href='https://erm.chongjun.synology.me' target='_blank' rel='external'> <b>ERM</b></a>",
+  "rn12": "08/2020 – 使用 TensorflowLite 開發口罩偵測模組",
 
 
   "pp1": "發表",
-  "pp2": "論文",
+  "pp2": " - 論文",
   "pp3": "利用修正有限配點法對二維自由液面勢流流場之數值模擬",
   "pp4": "朱翌成",
   "pp5": "蔡丁貴",
-  "pp6": "期刊",
-  "pp7": "網站架設",
+  "pp6": " - 期刊",
+  "pp7": " - 網站架設",
   "pp8": "106台北市大安區大安路一段51巷23之3號",
-  "pp9": "開源專案",
+  "pp9": " - 開源專案",
   "pp10": "(使用Line掃描專案QRCode, 就可以跟此聊天機器人對話～)",
   "pp11": "人臉辨識",
   "pp12": "年齡估計",
@@ -42,5 +43,7 @@
   "pj6": "企業資源管理",
   "pj7": "日本地理學日文",
 
-  "end": "end"
+  "end": "end",
+
+  "exp1": "開發經驗"
 }

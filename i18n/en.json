@@ -1,13 +1,13 @@
 {
 
     "dd1": "IChen Chu (朱翌成)",
-    "dd2": "Senior Android Developer, Advantech (Linkou, New Taipei City) <br>",
+    "dd2": "Senior Developer, Advantech (Linkou, New Taipei City) <br>",
     "dd3": "Graduate from The Hydraulic Engineering Division from Civil Engineering, NTU <br><br>",
 
     "ss1": "About",
-    "ss2": "From Sep. 2006 to Jun. 2010, I got my B.S. Degree from the Department of Water and Soil Conservation, National Chung Hsing University (NCHU).",
-    "ss3": "From Sep. 2010 to Jun. 2012, I got my M.S. Degree from the Division of Hydraulic Engineering in Civil Engineering, National Taiwan University (NTU) and my advisor is Prof. Tsay T.K..",
-    "ss4": "Currently, I am a Senior Android Developer at <a href='https://www.advantech.tw/' target='_blank' rel='external'> Advantech Corp.</a>",
+    "ss2": "<p>From Sep. 2006 to Jun. 2010, I got my B.S. Degree from the Department of Water and Soil Conservation, National Chung Hsing University (NCHU).</p>",
+    "ss3": "<p>From Sep. 2010 to Jun. 2012, I got my M.S. Degree from the Division of Hydraulic Engineering in Civil Engineering, National Taiwan University (NTU), and my advisor is Prof. Tsay T.K..</p>",
+    "ss4": "<p>Currently, I am a Senior Developer at <a href='https://www.advantech.tw/' target='_blank' rel='external'> Advantech Corp.</a></p>",
 
     "rn1": "Recent news",
     "rn2": "10/2013 – Be a <b>Civil Engineer</b> in 京扬工程科技股份有限公司",
@@ -16,20 +16,21 @@
     "rn5": "04/2017 – Participate in <a href='https://2017.spaceappschallenge.org/locations/taipei/' target='_blank' rel='external'> NASA Hackathon'17</a>",
     "rn6": "10/2017 – 1st App, Android Game <b><a href='https://play.google.com/store/apps/details?id=com.ichen.game' target='_blank' rel='external'>2048</a></b> published on Google Play Store",
     "rn7": "04/2018 – In charge for Chp 17, 18 in online workshop about <a href='https://www.books.com.tw/products/0010754327' target='_blank' rel='external'>TensorFlow&Keras</a>",
-    "rn8": "08/2018 – Be a <b>Senior Android Developer</b> in <a href='https://www.advantech.tw/' target='_blank' rel='external'> Advantech Corp.</a>",
+    "rn8": "08/2018 – Be a <b>Senior Developer</b> in <a href='https://www.advantech.tw/' target='_blank' rel='external'> Advantech Corp.</a>",
     "rn9": "11/2019 – 2nd App, Android Game <b><a href='https://play.google.com/store/apps/details?id=com.vhcc.drawnsend' target='_blank' rel='external'>DrawNSend</a></b> published on Google Play Store",
     "rn11": "03/2018 – Develop full stack system Enterprise Resource Management <a href='https://erm.chongjun.synology.me' target='_blank' rel='external'> <b>ERM</b></a>",
+    "rn12": "08/2020 – Mask Detect by TensorflowLite",
 
 
     "pp1": "Publications",
-    "pp2": "Thesis",
+    "pp2": " - Thesis",
     "pp3": "Numerical Simulation of 2D Free-surface Potential Flows Using Modified Finite Point Method",
     "pp4": "I-Chen Tsu",
     "pp5": "Ting-Kuei Tsay.",
-    "pp6": "Journals",
-    "pp7": "Websites",
+    "pp6": " - Journals",
+    "pp7": " - Websites",
     "pp8": "1F., No.23-3, Ln. 51, Sec. 1, Da’an Rd., Da’an Dist., Taipei 106",
-    "pp9": "Open Source",
+    "pp9": " - Open Source",
     "pp10": "(using Line scan the qrcode, then make dialogue with it~)",
     "pp11": "Face Detection",
     "pp12": "Age-Estimation",
@@ -42,6 +43,7 @@
     "pj6": "Enterprise Resource Management",
     "pj7": "Geographic to learn japanese",
 
+    "end": "end",
 
-    "end": "end"
+    "exp1": "Skill Experience"
 }

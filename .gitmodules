@@ -1,0 +1,3 @@
+[submodule "ucv"]
+	path = ucv
+	url = https://github.com/VHCC/universal-CV.git

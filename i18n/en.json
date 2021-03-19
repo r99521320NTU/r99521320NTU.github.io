@@ -1,7 +1,7 @@
 {
 
     "dd1": "IChen Chu (朱翌成)",
-    "dd2": "Senior Developer, Advantech (Linkou, New Taipei City) <br>",
+    "dd2": "Location : Taiwan, New Taipei City, SanChong Dist. <br>",
     "dd3": "Graduate from The Hydraulic Engineering Division from Civil Engineering, NTU <br><br>",
 
     "ss1": "About",
@@ -20,6 +20,7 @@
     "rn9": "11/2019 – 2nd App, Android Game <b><a href='https://play.google.com/store/apps/details?id=com.vhcc.drawnsend' target='_blank' rel='external'>DrawNSend</a></b> published on Google Play Store",
     "rn11": "03/2018 – Develop full stack system Enterprise Resource Management <a href='https://erm.chongjun.synology.me' target='_blank' rel='external'> <b>ERM</b></a>",
     "rn12": "08/2020 – Mask Detect by TensorflowLite",
+    "rn13": "11/2014 – Develop a Member Management System for<b><a href='https://web.ichenprocin.dsmynas.com/VHCC/page/HomePage/index.jsp' target= '_blank' rel='external'>Vision Health Center</a></b> by SSH (Hibernate + Spring + Struts 2)",
 
 
     "pp1": "Publications",

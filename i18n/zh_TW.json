@@ -1,7 +1,7 @@
 {
 
   "dd1": "朱翌成 (IChen Chu)",
-  "dd2": "資深工程師, Advantech (林口, 新北市)",
+  "dd2": "住所 : 台灣, 新北市 三重區",
   "dd3": "畢業於『台灣大學土木工程所 水利工程部』",
 
   "ss1": "About",
@@ -20,6 +20,7 @@
   "rn9": "11/2019 – Google Store 上架 2nd 個人 App, Android Game <b><a href='https://play.google.com/store/apps/details?id=com.vhcc.drawnsend target='_blank' rel='external'>DrawNSend</a></b>",
   "rn11": "03/2018 – 企業資源管理系統 全端開發 <a href='https://erm.chongjun.synology.me' target='_blank' rel='external'> <b>ERM</b></a>",
   "rn12": "08/2020 – 使用 TensorflowLite 開發口罩偵測模組",
+  "rn13": "11/2014 – 開發<b><a href='https://web.ichenprocin.dsmynas.com/VHCC/page/HomePage/index.jsp' target= '_blank' rel='external'>保健視眼鏡</a>會員管理系統</b> 使用 SSH (Hibernate + Spring + Struts 2) 架構",
 
 
   "pp1": "發表",

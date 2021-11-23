@@ -1,2 +1,2 @@
 # Resume
-please visit [CV](https://vhcc.github.io/)
+please visit My [CV](https://vhcc.github.io/)

@@ -7,7 +7,7 @@
   "ss1": "About",
   "ss2": "<p>2006/09 ~ 2010/06, 取得 學士學位『水土保持學系，中興大學』</p>",
   "ss3": "<p>2010/09 ~ 2012/06, 取得 碩士學位『土木工程所 水利工程部，台灣大學』，指導教授『蔡丁貴』</p>",
-  "ss4": "<p>目前擔任<a href='https://www.advantech.tw/' target='_blank' rel='external'> Advantech Corp.</a>資深工程師</p>",
+  "ss4": "<p>目前擔任<a href='https://www.advantech.tw/' target='_blank' rel='external'> Advantech Corp.</a>資深工程師 <i>Since 2018.</i></p> ",
 
   "rn1": "近況",
   "rn2": "10/2013 – 擔任<b>水利工程師</b> 於 京扬工程科技股份有限公司（台北市）",
@@ -21,6 +21,7 @@
   "rn11": "03/2018 – 企業資源管理系統 全端開發 <a href='https://erm.chongjun.synology.me' target='_blank' rel='external'> <b>ERM</b></a>",
   "rn12": "08/2020 – 使用 TensorflowLite 開發口罩偵測模組",
   "rn13": "11/2014 – 開發<b><a href='https://web.ichenprocin.dsmynas.com/VHCC/page/HomePage/index.jsp' target= '_blank' rel='external'>保健視眼鏡</a>會員管理系統</b> 使用 SSH (Hibernate + Spring + Struts 2) 架構",
+  "rn14": "09/2021 – <b><a href='https://strava.ichenprocin.dsmynas.com/' target= '_blank' rel='external'>個人運動頁面</a></b>",
 
 
   "pp1": "發表",

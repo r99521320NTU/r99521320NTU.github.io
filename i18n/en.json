@@ -36,15 +36,16 @@
     "pp11": "Face Detection",
     "pp12": "Age-Estimation",
 
-    "pj1": "Projects",
-    "pj2": "MEAN (MongoDB, Express, AngularJS, NodeJS) Website",
-    "pj3": "Cold Chain Management for Retail",
-    "pj4": "Rainfall prediction",
+    "pj1": "In charge of Projects",
+    "pj2": "MEAN (MongoDB, Express, AngularJS, NodeJS) Website, dedicated for ERM system in 50+ employees company such as civil industry in Taiwan.",
+    "pj3": "Cold Chain Management for Wholesale, develop edge device in Android.",
+    "pj4": "Rainfall prediction program",
     "pj5": "Business Process Management",
     "pj6": "Enterprise Resource Management",
     "pj7": "Geographic to learn japanese",
 
     "end": "end",
 
-    "exp1": "Skill Experience"
+    "exp1": "Skill Experience",
+    "exp2": "Main Skills"
 }

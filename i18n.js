@@ -45,6 +45,7 @@
      substituteI18(root.getElementsByClassName('pj7'), i18next.t('pj7'));
 
      substituteI18(root.getElementsByClassName('exp1'), i18next.t('exp1'));
+     substituteI18(root.getElementsByClassName('exp2'), i18next.t('exp2'));
 
      // root.getElementById('title').innerHTML = i18next.t('title', { what: 'i18next' });
  }

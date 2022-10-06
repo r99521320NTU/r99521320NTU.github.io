@@ -38,8 +38,8 @@
   "pp12": "年齡估計",
 
   "pj1": "執行專案",
-  "pj2": "MEAN(MongoDB, Express, AngularJS, NodeJS) Website",
-  "pj3": "零售業冷鏈系統",
+  "pj2": "MEAN(MongoDB, Express, AngularJS, NodeJS) Website, 設計用於50人規模等級之公司，目前客戶為台灣土木公司。",
+  "pj3": "量販產業冷鏈系統",
   "pj4": "雨量預測",
   "pj5": "商務流程管理",
   "pj6": "企業資源管理",
@@ -47,5 +47,6 @@
 
   "end": "end",
 
-  "exp1": "開發經驗"
+  "exp1": "開發經驗",
+  "exp2": "主語言"
 }

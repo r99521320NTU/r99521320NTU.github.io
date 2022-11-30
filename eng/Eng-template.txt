@@ -1,0 +1,175 @@
+1. 請你簡短的自我介紹
+Tell me about yourself.
+
+Hello, my name is Michael.
+I began my career in retail management, but 3 years ago,
+I took a course to become a front-end software engineer.
+
+I’ve always been interested and skilled at creating something from scratch.
+My experience successfully helped me with organizing my thoughts logically,
+and I’ve been building a career as a front-end software engineer ever since.
+
+2. 你遇過哪些困難或挑戰？
+What challenges have you faced? How did you handle them?
+
+
+你是怎麼面對的？
+面試時，面試官會利用這個問題，來考驗你的邏輯。
+
+
+要讓面試官知道你能發現問題、設計解決方案、提出完善計畫。
+範例 ：
+
+In my previous job, I noticed that there is an anomaly in the performance of our website.
+I quickly realized that it was due to a CTA link misplacement.
+I came up with two solutions:
+completely remove the CTA or use a redirection landing page to be able to continue tracking website traffic.
+After discussion with the team, we decided to go with the second option, which results in a 15% increase in website traffic in the end.
+
+After this incident, I suggested my manager to implement a two-step QA process.
+Since then, we have never seen any problems like that again.
+
+3. 你的優缺點是什麼？
+What are your strengths and weaknesses?
+
+優缺點的面試問題也是公司非常看重的地方，
+而面試官之所以會問「 優缺點 」的原因，
+是他們要知道公司是否能從你身上獲得他們所需要的，
+以及公司未來可能會要輔助你哪方面的需求。
+範例：
+
+
+I believe leadership is my one of my top strengths.
+During my time as a front-end software team lead,
+I successfully merged two teams, constructed and conducted a training session for the team members,
+making sure everyone is confident with the new role their were heading into.
+
+The new team bought great success in the first month, bringing engagement rate for the for our website up by 5%.
+
+My weakness is that I am an idealist. Every time I complete a project, I tend to think that it could be better.
+Although it already received a lot of complements.
+
+For this reason, I overwork myself quite a lot, and feels tired from time to time.
+I have started to fix this problem by receiving assistance from my team members,
+I have already made good progress, and will continue to do so.
+
+4. 你的職涯目標是什麼？
+What are your career goals? Where do you see yourself in 1/3/5 years?
+
+你認為一/三/五年後的自己會在做什麼？
+人才未來的規劃會影響公司的結構。
+雖然求職者在這一題給出的答案，跟他本身的工作能力沒有太大的關係，
+但是跟他在公司未來成長上，以及能不能成為公司的梁柱有莫大的關係。
+面試官會希望了解求職者對職涯想法，以此確認在這份工作的長期發展上，這位求職者適不適合。
+
+The career plan that I set for the coming year, as a front-end engineer,
+is to continue to follow the trend and future direction of the technology era,
+developing innovative and efficient ways to solve problems.
+
+And be able to use my positive, active, and beginner’s mindset to integrate into the company culture.
+
+In addition, no matter where I end up,
+I plan to understand the core of being in a team, and become a good partner who is willing to listen and communicate,
+as to find the most efficient way of cooperation.
+
+Finally, I plan to pick up a front-end related skill or tool every quarter this year,
+to accumulate experience and take more management responsibilities, in the hope to become a great supervisor in the future.
+
+5. 你為什麼離開上一份工作？
+Why did you leave your last job?
+
+在這個競爭的時代，
+人才的技術、能力、經驗都很好，企業在徵才時，反而更重視文化了，所以人資在注意的是，
+你有沒有跟公司一樣的文化，進公司後會不會做的開心，所以才會想要了解你離開前公司的主要原因是什麼。
+
+First of all,
+my former company’s management believes that the success of operations are based on effectiveness, which I absolutely agree with.
+However, from a cultural perspective, to maintain a certain level of effectiveness,
+I think it should be based on the happiness of the employees. So made a difficult decision to leave the company to go on a search this kind of environment. From your company’s culture, I can see that this is also something you care about very much, that’s why I was very eager to meet with you.
+
+6. 目前為止你最滿意的工作成就？
+What is your biggest achievement during your career?
+
+很多時候，求職者遇到這一題時，
+可能會需要想很久，害怕經驗不夠吸引面試官，又或著是單純想不到。企業想要聽你講這一題，
+除了想了解你的成就以外，還想考驗你敘述一件事情的能力。
+
+In my former company, there was an opportunity to speak for a presentation,
+on the construction of the logic behind our website, for the entire company and VIP customers, in a 3-hour seminar.
+I fought for and got the opportunity to represent the front-end engineering department.
+
+I had to prepare for a 45-minute presentation.
+At that time, my task was not only to investigate the e-commerce market,
+but also to condense a large amount of information in just 35 minutes, because I was asked to reserve 10 minutes for questions and answers.
+
+I believed that it was a good opportunity for the audience to think outside the framework,
+so I planned for the audience to participate in the presentation:
+audience interaction, interesting photos and videos, and accurate data.
+
+To let the audience fully understand my point of view,
+I chose a creative format, which turned the audience into a part of my presentation, maximizing the interaction.
+
+My department received great feedback and evaluation,
+and were invited by our VIP customers to give another presentation at their coming annual conference.
+
+In addition, the presentation was also written into a report for the company’s reference.
+This is definitely one of my greatest achievements.
+
+7. 你在工作以外的興趣是什麼？
+What are your personal interests/hobbies outside of work?
+
+判斷一個人是否合適一個職缺，
+除了工作職能之外，求職者的人格特質亦是相當關鍵的評估點。
+面試問題「你的興趣是什麼？」並非單純想要與求職者聊天，而是希望可以透過面試者的答案，瞭解他的性格與價值觀。
+
+One of my hobbies is jogging.
+It is something that I do 3-4 times a week.
+When I’m jogging, I have clear goal to reach, and for that reason, my mind becomes extra clear.
+Some of my best work-related ideas actually came to me when I was jogging.
+
+I believe my hobby will help me as a front-end software engineer because on a day-to-day basis,
+I have to face many complex situations. With a clear mind, I will be able to construct efficient ways to resolve issues.
+
+
+8. 為什麼想來我們公司？
+Why did you want to join our company?
+
+這一題，很多時候是由老闆親自發問，尤其是在新創公司。
+為這一題的原因是有兩個，
+1. 他們想要知道，你能不能成為願意跟公司一起奮鬥的一員。
+2. 他們想要知道，你對公司了解到什麼程度。
+
+
+The reason why I want to join you is for your touching and admirable mission and culture.
+
+I have personally experienced the pain-point that you mentioned during our conversation.
+It was really a difficult time, I faced the same thing in my two previous job.
+I wish to completely eliminate this problem for all the job seekers.
+
+The cultures and mission at your company fits the description with my personal attitude.
+I believe your company is heading to the right direction, and will soon bring great success in this matter.
+This is also why I would love to be part of the contribution.
+
+
+9. 你對加班有什麼想法？
+What do you think about overtime?
+
+相信大家對這個面試問題並不陌生，但當這個問題從面試官口中講出時，內心不免一陣尷尬與掙扎。
+當然每個人對加班的感受，以及意願度都不一樣，所以回答時要考慮到自己心裡真正的感受。
+
+
+I think it’s a good thing to be able to work wholeheartedly.
+I am also the kind of people that continue to strike for improvement and creating values.
+However, regarding overtime, I hope to understand the company’s overtime status and the reasons for overtime.
+
+10. 你有什麼想問我們的問題嗎？
+Do you have any questions for us?
+
+職場上有各式各樣的人，每個人所追求的職涯也都不一樣，有的人想要薪水高，
+有的人想要工作與生活平衡，有的人想要不斷地嘗試各種的工作，而在不同的職涯階段，許多事情都有可能再次改變！
+所以想要了解公司，就要問問題，但是有些問題可以問，而有些不能。
+
+
+Yes, I have a couple questions for you:
+1. In order to fully understand where the company stands, could you please elaborate on the company’s culture, which we talked about earlier?
+2. What kind of people are your employees? Are there any key qualities that all of them possessed?

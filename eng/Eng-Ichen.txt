@@ -1,0 +1,145 @@
+1. 請你簡短的自我介紹
+Tell me about yourself.
+
+Hello, my name is Frank,
+graduated from National Taiwan University, Master of Engineering of Civil Engineering.
+
+I touch programming begin from University, then later in my Master-semester,
+and my thesis is finished by Fortran. "the old programing"
+
+I began my career in Java Web Developer, but 2 years later,
+I took a course to become Android engineer.
+
+I've always been interested and skilled at learning something new creative-technology, which about block-chain, machine-learning,
+and something I am curious in. (economics)
+so, in order to explore something cool, I've been participated in hackathon, offline workshop, online book-club.
+
+My experience successfully helped me with organizing my thoughts logically,
+and I’ve been building a career as a full-stack software developer ever since.
+
+*. 為什麼要轉職
+My big brother has own a glasses-accessories store in Taipei,
+and there is a pain-point in the situation of managing customer data, which is stored by paper-work.
+
+So, as his dearest little brother, I want to figure him out the way to solve this problem, and then, I've established a Web-Site for him,
+and I took this project to be my show-up-work in my First Software company.
+
+Very fortunately, I got the opportunity to be part of them, and start my IT Career.
+
+
+** 介紹一下你著手過的專案
+
+Recently, I was in charge of Inspection - SaaS in Retail industry, I am heading in back-end developer.
+and in fact, I was lead a 5 member-team including web and app position.
+
+In this project, we use Spring-boot as back-end and Vue.Js as frontEnd, and React-Native in App side.
+
+In previously, the project, which was maintained by Xian in China.
+it was transfer to us in 2021, and we bought improving execution in efficiency of program by 70%, and increasing stability and readable of codebase.
+
+In order to the scenarios of COVID-19, we developed mask-detect engine which is using SeetaFace6 and face-detection by CyberLink, then porting into android edge devices which made by Advantech.
+in this project, we use golang as back-end, and Vue.js as front-end, Android tablet as edge device.
+
+
+
+2. 你遇過哪些困難或挑戰？
+What challenges have you faced? How did you handle them?
+
+In event previously, Advantech world-wide summit, and there was a chance to cooperate with SoftBank,
+which provided their production "Pepper", the ai robot.
+the Task is to control Pepper guiding people to visit the exhibition hall, and do particular-actions with different scenarios.
+
+during this develop stage, we encountered the Pepper SDK issues, which was needed supports by SoftBand.
+
+because of SDK version is a little older and the way to debug Pepper device is much implicit, it had cost lots of
+efforts to figure out the appropriate way to achieve the mission target.
+
+
+
+3. 你的優缺點是什麼？
+What are your strengths and weaknesses?
+
+I believe leadership is the most obviously one.
+During my time as a back-end software team leader,
+
+I successfully merged two teams, constructed and conducted a training session for the team members,
+making sure everyone is confident with the new role, which they were heading into.
+
+The new team bought great performance in the first Season,
+decreasing api-request flow rate than previous team by 25%, and build unit-Test process, code-coverage is 45% in front-end, 38% at back-end.
+
+
+My weakness is that I am an idealist.
+Every time I complete a project, I tend to think that it could be better.
+Although it already received a lot of complements.
+
+For this reason, I overwork myself quite a lot, and feels tired from time to time.
+I have started to fix this problem by receiving assistance from my team members
+
+
+4. 你的職涯目標是什麼？
+What are your career goals? Where do you see yourself in 1/3/5 years?
+
+
+The career plan that I set for the coming year, as a software Architecture,
+and to continue to follow the trend and future direction of the technology era,
+developing innovative and efficient ways to solve problems.
+
+And be able to use my positive, active, and beginner’s mindset to integrate into the company culture.
+
+In addition,
+I plan to core of being by the team, and become a good partner willing to listen and communicate.
+
+the last but not the least, I plan to pick up a managing related skill next year,
+to accumulate experience and take more management responsibilities, in the hope to become a great supervisor in the future.
+
+
+5. 你為什麼離開上一份工作？
+Why did you leave your last job?
+
+First of all,
+my company’s management believes that the success of operations are based on effectiveness, which I absolutely agree with.
+However, from a cultural perspective, to maintain a certain level of effectiveness,
+I think it should be based on the happiness of the employees.
+
+So made a difficult decision to leave the company to go on searching this kind of environment.
+
+From Trend's culture, I would like to believe, this is also you care about very much, that’s why I was very eager to meet with you.
+
+
+
+7. 你在工作以外的興趣是什麼？
+What are your personal interests/hobbies outside of work?
+
+One of my hobbies is biking.
+It is something that I do 3-4 times a week.
+
+When I'm biking, I have a clear goal to reach, and for that reason, my mind becomes extra clear and feel really relaxed.
+
+I believe my hobby will help me as a software developer, because on a day-to-day basis,
+I have to face many complex situations.
+With a clear mind, I will be able to find efficient ways to resolve issues.
+
+
+8. 為什麼想來我們公司？
+Why did you want to join our company?
+
+
+The reason why I want to join you is for your touching, admirable mission and especially company culture.
+I have personally experienced the pain-point that I mentioned before.
+
+The cultures and mission at your company fits the description with my personal attitude.
+"Be innovative, be passionate, be a Trender".
+This is also why I would love to be part of the contribution.
+
+
+9. 你對加班有什麼想法？
+What do you think about overtime?
+
+I think it’s a good thing to be able to work whole-heartedly.
+I am the kind of people that continue to strike for improvement and creating values.
+However, regarding overtime, I hope to deeply understand the company’s overtime status and the reasons for overtime.
+
+
+10. 你有什麼想問我們的問題嗎？
+Do you have any questions for us?

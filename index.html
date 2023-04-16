@@ -29,22 +29,28 @@
             type="text/javascript">
     </script>
     <script>
-        window.DD_RUM && window.DD_RUM.init({
-            clientToken: 'pub85b3a2d873ecc03c9a8447ab626830e5',
-            applicationId: '82bc8c50-15e2-4dbd-94dd-9793ec9101b8',
-            site: 'us5.datadoghq.com',
-            service: 'cv-resume',
-            env: 'prod',
-            // Specify a version number to identify the deployed version of your application in Datadog
-            // version: '1.0.0',
-            sessionSampleRate: 100,
-            premiumSampleRate: 100,
-            trackUserInteractions: true,
-            defaultPrivacyLevel: 'mask-user-input',
+      (function(h,o,u,n,d) {
+        h=h[d]=h[d]||{q:[],onReady:function(c){h.q.push(c)}}
+        d=o.createElement(u);d.async=1;d.src=n
+        n=o.getElementsByTagName(u)[0];n.parentNode.insertBefore(d,n)
+      })(window,document,'script','https://www.datadoghq-browser-agent.com/us5/v4/datadog-rum.js','DD_RUM')
+      window.DD_RUM.onReady(function() {
+        window.DD_RUM.init({
+          clientToken: 'pub0be216df6674cbbeb39f94903aed2264',
+          applicationId: 'd1d52150-f636-4450-984f-68de7d9d8cf2',
+          site: 'us5.datadoghq.com',
+          service: 'cv-resume',
+          env: 'prod',
+          // Specify a version number to identify the deployed version of your application in Datadog 
+          // version: '1.0.0',
+          sessionSampleRate: 100,
+          premiumSampleRate: 100,
+          trackUserInteractions: true,
+          defaultPrivacyLevel: 'mask-user-input',
         });
 
-        window.DD_RUM &&
         window.DD_RUM.startSessionReplayRecording();
+      })
     </script>
 
     <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">

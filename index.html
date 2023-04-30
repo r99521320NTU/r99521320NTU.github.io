@@ -156,6 +156,29 @@
         width: 30%;
         float: left;
     }
+
+    .text-gray-650 {
+        --text-opacity: 1;
+        color: #68778d;
+        color: rgba(104.04, 118.72800000000001, 140.76, var(--text-opacity))
+    }
+
+    .work-exp-li-arrow {
+        position: absolute;
+        margin-left: -1rem
+    }
+
+    .work-exp-li {
+        list-style-type: none;
+        margin-left: -20px;
+        height: 2em;
+        line-height: 1.5em;
+    }
+
+    .plusImg {
+        margin-top: 10px;
+    }
+
 </style>
 
 
@@ -257,114 +280,335 @@
                     <br><br>
 
                     <!-- Recent News -->
-                    <p style="text-align:left"><strong><font size="4px" class="rn1">Recent</font></strong></p>
-                    <ul>
-                        <li><p style="text-align:left" class="rn14 showImageToolTip"
-                               data-jbox-content="<img src='ucv/imgs/20221006_strava.png' width='300px'>">
-                            09/2021 – strava workout page</p>
-                        </li>
+<!--                    <p style="text-align:left"><strong><font size="4px" class="rn1">Recent</font></strong></p>-->
+<!--                    <ul>-->
+<!--                        <li><p style="text-align:left" class="rn14 showImageToolTip"-->
+<!--                               data-jbox-content="<img src='ucv/imgs/20221006_strava.png' width='300px'>">-->
+<!--                            09/2021 – strava workout page</p>-->
+<!--                        </li>-->
 
-                        <li><p style="text-align:left" class="rn15">
-                            03/2021 – Mask Detect by SeetaFace6</p>
-                        </li>
+<!--                        <li><p style="text-align:left" class="rn15">-->
+<!--                            03/2021 – Mask Detect by SeetaFace6</p>-->
+<!--                        </li>-->
 
-                        <li><p style="text-align:left" class="rn12">
-                            08/2020 – Mask Detect by TensorflowLite</li>
+<!--                        <li><p style="text-align:left" class="rn12">-->
+<!--                            08/2020 – Mask Detect by TensorflowLite</li>-->
 
-                        <li id="time10"><p style="text-align:left" class="rn10 showImageToolTip"
-                                           data-jbox-content="<img src='ucv/imgs/20221007_jp.png' width='300px'>"
-                                           onclick="gtagEvent('event', 'my app link Click', 'Click', 'jp web app', 10)">
-                            03/2020 – Web App, <a
-                                href="https://jp.ichenprocin.dsmynas.com" target="_blank" rel="external"><b>Japan
-                            geographic map</b></a></p>
-                        </li>
-                        <li id="time9"><p style="text-align:left" class="rn9 showImageToolTip"
-                                          data-jbox-content="<img src='ucv/imgs/20221007_dns.png' width='300px'>"
-                                          onclick="gtagEvent('event', 'my app link Click', 'Click', 'DrawNSend', 10)">
-                            11/2019 – 2nd App, Android Game <b><a
-                                href="https://play.google.com/store/apps/details?id=com.vhcc.drawnsend"
-                                target="_blank" rel="external">DrawNSend</a></b>
-                            published on Google Play Store</p>
-                        </li>
-                        <li id="time8" onclick="gtagEvent('event', 'External Link Click', 'Click', 'to advantech', 2)">
-                            <p style="text-align:left" class="rn8">08/2018 – Be a <b>Senior Developer</b> in <a
-                                    href="https://www.advantech.tw/" target="_blank" rel="external"> Advantech Corp.</a>
-                            </p>
-                        </li>
-                        <li id="time7" onclick="gtagEvent('event', 'External Link Click', 'Click', 'to advantech', 2)">
-                            <p style="text-align:left" class="rn11 showImageToolTip"
-                               data-jbox-content="<img src='ucv/imgs/20221007_erm.png' width='300px'>">
-                                03/2018 – Develop full stack system Enterprise Resource Management <a
-                                    href="https://erm.chongjun.synology.me" target="_blank" rel="external">
-                                <b>ERM</b></a></p>
-                        </li>
+<!--                        <li id="time10"><p style="text-align:left" class="rn10 showImageToolTip"-->
+<!--                                           data-jbox-content="<img src='ucv/imgs/20221007_jp.png' width='300px'>"-->
+<!--                                           onclick="gtagEvent('event', 'my app link Click', 'Click', 'jp web app', 10)">-->
+<!--                            03/2020 – Web App, <a-->
+<!--                                href="https://jp.ichenprocin.dsmynas.com" target="_blank" rel="external"><b>Japan-->
+<!--                            geographic map</b></a></p>-->
+<!--                        </li>-->
+<!--                        <li id="time9"><p style="text-align:left" class="rn9 showImageToolTip"-->
+<!--                                          data-jbox-content="<img src='ucv/imgs/20221007_dns.png' width='300px'>"-->
+<!--                                          onclick="gtagEvent('event', 'my app link Click', 'Click', 'DrawNSend', 10)">-->
+<!--                            11/2019 – 2nd App, Android Game <b><a-->
+<!--                                href="https://play.google.com/store/apps/details?id=com.vhcc.drawnsend"-->
+<!--                                target="_blank" rel="external">DrawNSend</a></b>-->
+<!--                            published on Google Play Store</p>-->
+<!--                        </li>-->
+<!--                        <li id="time8" onclick="gtagEvent('event', 'External Link Click', 'Click', 'to advantech', 2)">-->
+<!--                            <p style="text-align:left" class="rn8">08/2018 – Be a <b>Senior Developer</b> in <a-->
+<!--                                    href="https://www.advantech.tw/" target="_blank" rel="external"> Advantech Corp.</a>-->
+<!--                            </p>-->
+<!--                        </li>-->
+<!--                        <li id="time7" onclick="gtagEvent('event', 'External Link Click', 'Click', 'to advantech', 2)">-->
+<!--                            <p style="text-align:left" class="rn11 showImageToolTip"-->
+<!--                               data-jbox-content="<img src='ucv/imgs/20221007_erm.png' width='300px'>">-->
+<!--                                03/2018 – Develop full stack system Enterprise Resource Management <a-->
+<!--                                    href="https://erm.chongjun.synology.me" target="_blank" rel="external">-->
+<!--                                <b>ERM</b></a></p>-->
+<!--                        </li>-->
 
-                        <li id="time6" onclick="gtagEvent('event', 'External Link Click', 'Click', 'to Tenserflow', 2)">
-                            <p style="text-align:left" class="rn7">04/2018 – In charge for Chp 17, 18 in
-                                online workshop
-                                about <a href="https://www.books.com.tw/products/0010754327" target="_blank"
-                                         rel="external">TensorFlow&Keras</a>
-                            </p></li>
-                        <li id="time5" onclick="gtagEvent('event', 'my app link Click', 'Click', '2048', 10)"><p
-                                style="text-align:left" class="rn6">10/2017 – 1st App, Android Game <b><a
-                                href="https://play.google.com/store/apps/details?id=com.ichen.game" target="_blank"
-                                rel="external">2048</a></b>
-                            published
-                            on Google Play Store</p></li>
-                        <li id="time4" onclick="gtagEvent('event', 'External Link Click', 'Click', 'to NASA', 2)"><p
-                                style="text-align:left" class="rn5">04/2017 – Participate in <a
-                                href="https://2017.spaceappschallenge.org/locations/taipei/" target="_blank"
-                                rel="external"> NASA Hackathon'17</a></p></li>
-                        <li id="time3" onclick="gtagEvent('event', 'External Link Click', 'Click', 'to JSW', 2)"><p
-                                style="text-align:left" class="rn4">09/2016 – Be an <b>Android Developer</b>
-                            in <a
-                                    href="http://www.secufirst.com.tw/" target="_blank" rel="external">Jsw Corp.</a></p>
-                        </li>
-                        <li id="time2" onclick="gtagEvent('event', 'External Link Click', 'Click', 'to Flowring', 2)"><p
-                                style="text-align:left" class="rn3">04/2015 – Be a <b>Java Developer</b> in <a
-                                href="https://www.flowring.com/" target="_blank" rel="external">Flowring</a></p></li>
+<!--                        <li id="time6" onclick="gtagEvent('event', 'External Link Click', 'Click', 'to Tenserflow', 2)">-->
+<!--                            <p style="text-align:left" class="rn7">04/2018 – In charge for Chp 17, 18 in-->
+<!--                                online workshop-->
+<!--                                about <a href="https://www.books.com.tw/products/0010754327" target="_blank"-->
+<!--                                         rel="external">TensorFlow&Keras</a>-->
+<!--                            </p></li>-->
+<!--                        <li id="time5" onclick="gtagEvent('event', 'my app link Click', 'Click', '2048', 10)"><p-->
+<!--                                style="text-align:left" class="rn6">10/2017 – 1st App, Android Game <b><a-->
+<!--                                href="https://play.google.com/store/apps/details?id=com.ichen.game" target="_blank"-->
+<!--                                rel="external">2048</a></b>-->
+<!--                            published-->
+<!--                            on Google Play Store</p></li>-->
+<!--                        <li id="time4" onclick="gtagEvent('event', 'External Link Click', 'Click', 'to NASA', 2)"><p-->
+<!--                                style="text-align:left" class="rn5">04/2017 – Participate in <a-->
+<!--                                href="https://2017.spaceappschallenge.org/locations/taipei/" target="_blank"-->
+<!--                                rel="external"> NASA Hackathon'17</a></p></li>-->
+<!--                        <li id="time3" onclick="gtagEvent('event', 'External Link Click', 'Click', 'to JSW', 2)"><p-->
+<!--                                style="text-align:left" class="rn4">09/2016 – Be an <b>Android Developer</b>-->
+<!--                            in <a-->
+<!--                                    href="http://www.secufirst.com.tw/" target="_blank" rel="external">Jsw Corp.</a></p>-->
+<!--                        </li>-->
+<!--                        <li id="time2" onclick="gtagEvent('event', 'External Link Click', 'Click', 'to Flowring', 2)"><p-->
+<!--                                style="text-align:left" class="rn3">04/2015 – Be a <b>Java Developer</b> in <a-->
+<!--                                href="https://www.flowring.com/" target="_blank" rel="external">Flowring</a></p></li>-->
 
-                        <li><p style="text-align:left" class="rn13 showImageToolTip"
-                               data-jbox-content="<img src='ucv/imgs/20221007_vhc.png' width='300px'>" >
-                            11/2014 – Develop a Member Management System for<b><a
-                                href="https://web.ichenprocin.dsmynas.com/VHCC/page/HomePage/index.jsp" target="_blank"
-                                rel="external">Vision Health Center</a>
-                        </b> by S2SH (Hibernate + Spring + Struts 2)</p></li>
+<!--                        <li><p style="text-align:left" class="rn13 showImageToolTip"-->
+<!--                               data-jbox-content="<img src='ucv/imgs/20221007_vhc.png' width='300px'>" >-->
+<!--                            11/2014 – Develop a Member Management System for<b><a-->
+<!--                                href="https://web.ichenprocin.dsmynas.com/VHCC/page/HomePage/index.jsp" target="_blank"-->
+<!--                                rel="external">Vision Health Center</a>-->
+<!--                        </b> by S2SH (Hibernate + Spring + Struts 2)</p></li>-->
 
-                        <li id="time1" onclick="gtagEvent('event', 'External Link Click', 'Click', 'to KM', 2)"><p
-                                style="text-align:left" class="rn2">10/2013 – Be a <b>Civil Engineer</b> in
-                            京扬工程科技股份有限公司
-                        </p></li>
+<!--                        <li id="time1" onclick="gtagEvent('event', 'External Link Click', 'Click', 'to KM', 2)"><p-->
+<!--                                style="text-align:left" class="rn2">10/2013 – Be a <b>Civil Engineer</b> in-->
+<!--                            京扬工程科技股份有限公司-->
+<!--                        </p></li>-->
 
-                    </ul>
-                    <br><br>
+<!--                    </ul>-->
+<!--                    <br><br>-->
 
                     <!--<div id="timeline-embed"></div>-->
-                    <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1WIZpt6upXzVJQY-wn2SA6ovHLh1jp_6OF1asGx5mGGA&font=Default&lang=en&debug=true&hash_bookmark=true&initial_zoom=1&height=600'
-                            width='100%' height='600' webkitallowfullscreen mozallowfullscreen allowfullscreen
-                            frameborder='0'></iframe>
+<!--                    <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1WIZpt6upXzVJQY-wn2SA6ovHLh1jp_6OF1asGx5mGGA&font=Default&lang=en&debug=true&hash_bookmark=true&initial_zoom=1&height=600'-->
+<!--                            width='100%' height='600' webkitallowfullscreen mozallowfullscreen allowfullscreen-->
+<!--                            frameborder='0'></iframe>-->
+                    <hr/>
+
+
+<!--                   Experience -->
+                    <p style="text-align:left"><strong><font size="4px" class="wexp">Work Experience</font></strong></p>
+
+                    <ul>
+                        <li>
+                            <strong style="width: 150px">Advantech Corp.</strong>
+                            <img src="https://lirp.cdn-website.com/81aad348/dms3rep/multi/opt/innotalks_Advantech-640w.png" width="100px">
+                            <b><p style="text-align:left; color: #e8550c" class="wexp" >Aug 2018 – Present | Senior Software Developer</p></b>
+                            <ul class="">
+                                <li class="work-exp-li " style="margin-bottom: 95px">
+                                    <span class="work-exp-li-arrow">›</span>
+                                    <b>Complete</b> the transformation from the conventional server in standalone style service to microservices style, for example, a Spring boot standalone server to Spring Cloud Netflix services.
+                                    <div class="plusImg">
+                                        <a href="img/skill-cloud-sba.png" class="demo-img"
+                                           data-jbox-image="gallery1" title="Spring Boot Administrator">
+                                            <img src="img/skill-cloud-sba.png" alt="" >
+                                        </a>
+                                        <a href="img/skill-cloud-zipkin.png" class="demo-img"
+                                           data-jbox-image="gallery1" title="Zipkin">
+                                            <img src="img/skill-cloud-zipkin.png" alt="" >
+                                        </a>
+                                        <a href="img/skill-cloud-eureka.png" class="demo-img"
+                                           data-jbox-image="gallery1" title="Spring Cloud Eureka">
+                                            <img src="img/skill-cloud-eureka.png" alt="" >
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="work-exp-li " style="margin-bottom: 25px">
+                                    <span class="work-exp-li-arrow">›</span>
+                                    <b>Improve</b> execution in the efficiency of the program by <b>70%</b> which is the main product in RBU, and increase stability and readability of the code base which needs highly collaborated-developing.
+                                    <a href="https://aics.advantech.com/zh/storevue/inspection" target="_blank" rel="external">
+                                        <span class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
+                                    </a>
+                                </li>
+                                <li class="work-exp-li " style="margin-bottom: 95px">
+                                    <span class="work-exp-li-arrow">›</span>
+                                    <b>Lead a 5 members-team</b>, which is including web and app Engineers to develop a major product for Enterprise Service Business that is a service dedicated to enterprise-level scenarios as a visitor management system.
+                                    <div class="plusImg">
+                                        <a href="img/wexp-vms-kiosk.png" class="demo-img"
+                                           data-jbox-image="gallery1" title="">
+                                            <img src="img/wexp-vms-kiosk.png" alt="" >
+                                        </a>
+                                        <a href="../imgs/20221006_kiosk.png" class="demo-img"
+                                           data-jbox-image="gallery1" title="">
+                                            <img src="../imgs/20221006_kiosk.png" alt="" >
+                                        </a>
+                                        <a href="img/wexp-vms-web.png" class="demo-img"
+                                           data-jbox-image="gallery1" title="">
+                                            <img src="img/wexp-vms-web.png" alt="" >
+                                        </a>
+                                        <a href="img/wexp-storevue-dashboard.png" class="demo-img"
+                                           data-jbox-image="gallery1" title="">
+                                            <img src="img/wexp-storevue-dashboard.png" alt="" >
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="work-exp-li " style="margin-bottom: 25px">
+                                    <span class="work-exp-li-arrow">›</span>
+                                    <b>Complete</b> the development of a mask-detect engine that is highly recognizing, and has low hardware requirements, and port into android edge devices, which is made by Advantech, to COVID-19.
+                                    <a href="https://reurl.cc/9p85KO" target="_blank" rel="external">
+                                        <span class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
+                                    </a>
+                                </li>
+                                <li class="work-exp-li " style="margin-bottom: 25px">
+                                    <span class="work-exp-li-arrow">›</span>
+                                    <b>Design</b> and implement end-to-end server of the cloud service for critical applications such as specific scenario tablets, Task-oriented kiosks, and inspection mobile Apps.
+                                </li>
+                                <li class="work-exp-li " style="margin-bottom: 25px">
+                                    <span class="work-exp-li-arrow">›</span>
+                                    <b>Successfully integrate</b> multiple protocols and port different devices into one app via Wise-PaaS provided and powered by Advantech, it is applied in the Cold-Chain system for logistics, wholesale and retail.
+                                </li>
+                                <li class="work-exp-li " style="margin-bottom: 25px">
+                                    <span class="work-exp-li-arrow">›</span>
+                                    <b>Thoroughly participate in</b> the uninterrupted Cold Chain Management solution, in which I was involved in inspection, Cargo receives, and commodities transport, it's a <b>5000+</b> IOT-devices connection project.
+
+                                    <a href="https://www.advantech.com/zh-tw/srp/cold-chain-management-solutions" target="_blank" rel="external">
+                                        <span class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
+                                    </a>
+                                </li>
+                                <li class="work-exp-li ">
+                                    <span class="work-exp-li-arrow">›</span>
+                                    <b>Achieve high feedback</b> in the 2020 Advantech Industrial-IoT World Partner Conference through the check-in flow system that I am in charge of.
+                                    <a href="https://www.youtube.com/watch?v=z2cZGjA0TS4" target="_blank" rel="external">
+                                        <span class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li style="margin-top: 40px">
+                            <strong style="width: 150px;">Jsw Corp.</strong>
+                            <img src="https://shoplineimg.com/6178e68fa90ab30016ce019c/6193c7c29b0ef2003bac9c79/x140.webp?source_format=png"
+                                 height="15px" />
+                            <p style="text-align:left;margin-top: 10px" class="wexp text-gray-650">Sep 2016 – Aug 2018</p>
+                            <ul class="">
+                                <li class="work-exp-li ">
+                                    <span class="work-exp-li-arrow">›</span>
+                                    Implement functions compromising with the hardware team and cloud team, and customizing UI for multiple manufacturers.
+                                </li>
+                                <li class="work-exp-li ">
+                                    <span class="work-exp-li-arrow">›</span>
+                                    Port and implement Android SDK and develop JNI to control IP Cameras, Electronic locks, and homely devices.
+                                </li>
+                                <li class="work-exp-li ">
+                                    <span class="work-exp-li-arrow">›</span>
+                                    Improve the efficiency of the code base established by outsourcing and decreased costs of maintenance.
+                                </li>
+                                <li class="work-exp-li " >
+                                    <span class="work-exp-li-arrow">›</span>
+                                    App customization (Feature, OverLay, Image):
+                                </li>
+                                <li class="work-exp-li " style="margin-bottom: 65px">
+                                    <span class="work-exp-li-arrow">›</span>
+                                    App SDK development:
+                                    <ul>
+                                        <li>Shared function management.</li>
+                                        <li>Considerations for program coupling.</li>
+                                        <li>JNI Build.</li>
+                                    </ul>
+                                </li>
+                                <li class="work-exp-li " style="margin-bottom: 65px">
+                                    <span class="work-exp-li-arrow">›</span>
+                                    App performance optimization:
+                                    <ul>
+                                        <li>Native object performance processing.</li>
+                                        <li>Multi-Thread implementation and analysis.</li>
+                                        <li>Activity, Fragment LifeCycle analysis and control.</li>
+                                    </ul>
+                                </li>
+                                <li class="work-exp-li " >
+                                    <span class="work-exp-li-arrow">›</span>
+                                    App Framework with Design Pattern.
+                                </li>
+                                <li class="work-exp-li " >
+                                    <span class="work-exp-li-arrow">›</span>
+                                    Customize Object.
+                                </li>
+                                <li class="work-exp-li " >
+                                    <span class="work-exp-li-arrow">›</span>
+                                    GCM, FCM implementation and debugging.
+                                </li>
+                                <li class="work-exp-li " >
+                                    <span class="work-exp-li-arrow">›</span>
+                                    App multi-device quality control.
+                                </li>
+                                <li class="work-exp-li " style="margin-bottom: 25px">
+                                    <span class="work-exp-li-arrow">›</span>
+                                    IOT product API implementation, integration and spec considerations.
+                                    <ul>
+                                        <li>API integration, TCP, UDP data processing.</li>
+                                    </ul>
+                                </li>
+                                <li class="work-exp-li " >
+                                    <span class="work-exp-li-arrow">›</span>
+                                    AOSP exploration and analysis.
+                                </li>
+                                <li class="work-exp-li " >
+                                    <span class="work-exp-li-arrow">›</span>
+                                    Gradle implementation of a single product line, multi-customer control.
+                                </li>
+                            </ul>
+                        </li>
+                        <li style="margin-top: 20px">
+                            <strong style="width: 150px">Flowring</strong>
+                            <img src="data:image/png;base64,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
+                            Ne3H7QZLug2906h1ehrOl89Sj2VIael8B8Yc4uPUhENUUPe8hFXiY8ZBhFkd3tR9G
+                            ASJ5TISvpKwpRGDlXTZMk0RragQEEDepZxFAFGgK+hwgS7DGrdeEAiZ1Lui3nNb8HZI
+                            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"
+                                 width="100px">
+                            <p style="text-align:left" class="wexp text-gray-650">Apr 2014 – Aug 2016</p>
+                            <ul class="">
+                                <li class="work-exp-li " style="margin-bottom: 25px">
+                                    <span class="work-exp-li-arrow">›</span>
+                                    Develop software packages used for various interior RD teams such as IOT-workflow software, Business Resource Management, a workflow engine platform, and Enterprise portal, an enterprise domestic web page.
+                                </li>
+                                <li class="work-exp-li ">
+                                    <span class="work-exp-li-arrow">›</span>
+                                    Handle replication issues like UI-changes, functional improvement and customizing client demands.
+                                </li>
+                                <li class="work-exp-li " style="margin-bottom: 85px">
+                                    <span class="work-exp-li-arrow">›</span>
+                                    Development of BPM software (AgentFlow):
+                                    <ul>
+                                        <li>Form development.</li>
+                                        <li>System logic performance tuning.</li>
+                                        <li>Development and maintenance of public UI.</li>
+                                        <li>Development and maintenance of BPM Engine API.</li>
+                                    </ul>
+                                </li>
+                                <li class="work-exp-li " style="margin-bottom: 25px">
+                                    <span class="work-exp-li-arrow">›</span>
+                                    Collect customer requirements and develop new features:
+                                    <ul>
+                                        <li>Implement customer requirements to enhance product competitiveness.</li>
+
+                                    </ul>
+                                </li>
+                                <li class="work-exp-li " style="margin-bottom: 25px">
+                                    <span class="work-exp-li-arrow">›</span>
+                                    Control the progress of product line development (RPM):
+                                    <ul>
+                                        <li>Control manpower costs.</li>
+                                    </ul>
+                                </li>
+                                <li class="work-exp-li ">
+                                    <span class="work-exp-li-arrow">›</span>
+                                    Android development and testing:
+                                    <ul>
+                                        <li>The product line is an IM communication software and includes planning for payment and logistics services.</li>
+                                        <li>Discuss product issues with customers and explore solutions.</li>
+                                        <li>Explore the technology required for the product and share what is learned with colleagues.
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <br><br>
+                    <br><br>
                     <hr/>
 
                     <!-- Projects -->
-                    <p style="text-align:justify"><strong><font size="4px" class="pj1">In charge of
-                        Projects</font></strong></p>
-                    <ul>
-                        <li><p style="text-align:left" class="pj8">Inspection system for Retail</p></li>
-                        <li>
-                            <p style="text-align:left" class="pj2">MEAN (MongoDB, Express, AngularJS, NodeJS)
-                                Website, dedicated for ERM system in 100+ employees company such as civil industry in
-                                Taiwan.</p>
-                        </li>
-                        <li><p style="text-align:left" class="pj3">Cold Chain Management for Wholesale, develop edge
-                            device in Android.</p></li>
-                        <li><p style="text-align:left" class="pj4">Rainfall prediction program</p></li>
-                        <li><p style="text-align:left" class="pj5">Business Process Management</p></li>
-                        <li><p style="text-align:left" class="pj6">Enterprise Resource Management</p></li>
-                        <li><p style="text-align:left" class="pj7">Geographic to learn japanese</p></li>
-                    </ul>
-                    <br><br>
+<!--                    <p style="text-align:justify"><strong><font size="4px" class="pj1">In charge of-->
+<!--                        Projects</font></strong></p>-->
+<!--                    <ul>-->
+<!--                        <li><p style="text-align:left" class="pj8">Inspection system for Retail</p></li>-->
+<!--                        <li>-->
+<!--                            <p style="text-align:left" class="pj2">MEAN (MongoDB, Express, AngularJS, NodeJS)-->
+<!--                                Website, dedicated for ERM system in 100+ employees company such as civil industry in-->
+<!--                                Taiwan.</p>-->
+<!--                        </li>-->
+<!--                        <li><p style="text-align:left" class="pj3">Cold Chain Management for Wholesale, develop edge-->
+<!--                            device in Android.</p></li>-->
+<!--                        <li><p style="text-align:left" class="pj4">Rainfall prediction program</p></li>-->
+<!--                        <li><p style="text-align:left" class="pj5">Business Process Management</p></li>-->
+<!--                        <li><p style="text-align:left" class="pj6">Enterprise Resource Management</p></li>-->
+<!--                        <li><p style="text-align:left" class="pj7">Geographic to learn japanese</p></li>-->
+<!--                    </ul>-->
+<!--                    <br><br>-->
 
-                    <hr>
+<!--                    <hr>-->
 
                     <!-- Publications -->
                     <p style="text-align:justify"><strong><font size="4px" class="pp1">Publications</font></strong>
